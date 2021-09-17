@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="cases" max_length="40" name="x_697998_safety_cases" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Account" max_length="40" name="account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Action status" max_length="40" name="action_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Active" max_length="40" name="active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Active escalation" max_length="40" name="active_escalation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Activity due" max_length="40" name="activity_due" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Actual end" max_length="40" name="actual_end" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Actual start" max_length="40" name="actual_start" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional comments" max_length="40" name="additional_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval" max_length="40" name="approval" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval history" max_length="40" name="approval_history" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval set" max_length="40" name="approval_set" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Asset" max_length="40" name="asset" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned on" max_length="40" name="assigned_on" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned to" max_length="40" name="assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assignment group" max_length="40" name="assignment_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Auto close" max_length="40" name="auto_close" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Awardee ID" max_length="40" name="awardee_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Awardee ID (AG)" max_length="40" name="awardee_id_ag" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Browser" max_length="40" name="browser" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Browser Used" max_length="40" name="browser_used" type="string"/>
+        <element label="Business duration" max_length="40" name="business_duration" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Business service" max_length="40" name="business_service" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Caller " max_length="40" name="caller" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Caller Type" max_length="40" name="caller_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Case" max_length="94" name="case" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Case Report" max_length="40" name="case_report" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Category 1" max_length="40" name="category_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Category 2" max_length="40" name="category_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Category 3" max_length="40" name="category_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cause" max_length="40" name="cause" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Caused by Change" max_length="40" name="caused_by_change" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Change Request" max_length="40" name="change_request" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Channel" max_length="40" name="channel" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chrome" max_length="40" name="chrome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cleared Cache" max_length="40" name="cleared_cache" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed" max_length="40" name="closed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed by" max_length="40" name="closed_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" max_length="40" name="company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Configuration item" max_length="40" name="configuration_item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Consumer" max_length="40" name="consumer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Consumer (BC)" max_length="40" name="consumer_bc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact" max_length="40" name="contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Local Time" max_length="40" name="contact_local_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact time zone" max_length="40" name="contact_time_zone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract" max_length="40" name="contract" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contributor Groups" max_length="40" name="contributor_groups" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contributor Users" max_length="40" name="contributor_users" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Correlation display" max_length="40" name="correlation_display" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Correlation ID" max_length="40" name="correlation_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Created by" max_length="40" name="created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery plan" max_length="40" name="delivery_plan" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery task" max_length="40" name="delivery_task" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="2179" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Device affected" max_length="40" name="device_affected" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Device Used" max_length="40" name="device_used" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Domain" max_length="40" name="domain" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Domain Path" max_length="40" name="domain_path" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Due date" max_length="40" name="due_date" type="string"/>
+        <element label="Duration" max_length="40" name="duration" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Edge" max_length="40" name="edge" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Effective number" max_length="40" name="effective_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Address" max_length="40" name="email_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email From Address" max_length="40" name="email_from_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Entitlement" max_length="40" name="entitlement" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Escalation" max_length="40" name="escalation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expected start" max_length="40" name="expected_start" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Firefox" max_length="40" name="firefox" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Call Resolution" max_length="40" name="first_call_resolution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Response Time" max_length="40" name="first_response_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Follow up" max_length="40" name="follow_up" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="from Call" max_length="40" name="from_call" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Group list" max_length="40" name="group_list" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="HPO/DV Email" max_length="40" name="hpo_dv_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="HPO/DV Location" max_length="40" name="hpo_dv_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Impact(impact)" max_length="40" name="impact_impact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Incident" max_length="40" name="incident" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Internal User" max_length="40" name="internal_user" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Internet Explorer" max_length="40" name="internet_explorer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Journey Phase" max_length="40" name="journey_phase" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Knowledge" max_length="40" name="knowledge" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Laptop" max_length="40" name="laptop" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Local Information" max_length="40" name="local_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mac" max_length="40" name="mac" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Made SLA" max_length="40" name="made_sla" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Message" max_length="40" name="message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile App" max_length="40" name="mobile_app" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Needs attention" max_length="40" name="needs_attention" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Paired Site" max_length="40" name="new_paired_site" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notify" max_length="40" name="notify" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number 2" max_length="40" name="number_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="On behalf of" max_length="40" name="on_behalf_of" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opened" max_length="40" name="opened" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Opened by" max_length="40" name="opened_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opera" max_length="40" name="opera" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Operating System" max_length="40" name="operating_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order" max_length="40" name="order" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Organization ID" max_length="40" name="organization_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Reason" max_length="40" name="other_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Paired Site" max_length="40" name="paired_site" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent" max_length="40" name="parent" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Participant Location" max_length="40" name="participant_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Partner" max_length="40" name="partner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Partner Contact" max_length="40" name="partner_contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PC/Desktop" max_length="40" name="pc_desktop" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PII for Tier2" max_length="40" name="pii_for_tier2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Preferred Language" max_length="40" name="preferred_language" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Priority(priority)" max_length="40" name="priority_priority" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Proactive" max_length="40" name="proactive" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Problem" max_length="40" name="problem" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product" max_length="40" name="product" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="40" name="reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason Why" max_length="61" name="reason_why" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason why(u_reason_of_browser)" max_length="40" name="reason_why_u_reason_of_browser" type="string"/>
+        <element label="Reassignment count" max_length="40" name="reassignment_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolution code" max_length="40" name="resolution_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolution notes" max_length="40" name="resolution_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolved" max_length="40" name="resolved" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Resolved by" max_length="40" name="resolved_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Restarted Device" max_length="40" name="restarted_device" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Safari" max_length="40" name="safari" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service offering" max_length="40" name="service_offering" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="83" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Site" max_length="40" name="site" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Site (FO)" max_length="40" name="site_fo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Skills" max_length="40" name="skills" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SLA due" max_length="40" name="sla_due" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Social Profile" max_length="40" name="social_profile" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stage" max_length="40" name="stage" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status check" max_length="40" name="status_check" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subscribe All" max_length="40" name="subscribe_all" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Support Manager" max_length="40" name="support_manager" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Tags" max_length="40" name="tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Task type" max_length="40" name="task_type" type="string"/>
+        <element label="Time worked" max_length="40" name="time_worked" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="TPS" max_length="40" name="tps" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Transfer reason" max_length="40" name="transfer_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Universal Request" max_length="40" name="universal_request" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Updated" max_length="40" name="updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Updated by" max_length="40" name="updated_by" type="string"/>
+        <element label="Updates" max_length="40" name="updates" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Upon approval" max_length="40" name="upon_approval" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Upon reject" max_length="40" name="upon_reject" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Urgency(urgency)" max_length="40" name="urgency_urgency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="URL Verification" max_length="40" name="url_verification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User input" max_length="40" name="user_input" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Watch list" max_length="40" name="watch_list" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="4034" name="work_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes list" max_length="40" name="work_notes_list" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
